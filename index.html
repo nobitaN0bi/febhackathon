@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Scaler Social</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Header for the site that contains the sst logo and the scaler social logo-->
+	<div class="header">
+        <a href="#default" class="logo"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="SSTLogo"></a>
+        <div class="header-right">
+          <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="ScalerLogo">
+        </div>
+    </div>
+
+
+    <!-- contains the main content of the site-->
+    <section id="content" class="content">
+
+
+    <div class="create">
+
+
+        <div class="centrebox">
+            <h3>Post your thoughts here</h3>
+
+
+            <div class="commentbox">
+                <div id="horizontal">
+                    <div id="places">
+                        <div><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="peoplelogo"></div>
+                        <div>Type your thoughts here...</div>
+                    </div>
+                    <div><form><textarea id="message" class="message"></textarea></form></div>
+                </div>
+                <div class="button"><button type="button" id="buttonclick" onclick="getmessage()">Post</button></div>   
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="comments">
+    <h2>Your feed</h2>
+    <div id="cons"></div>
+    </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
